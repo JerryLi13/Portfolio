@@ -517,12 +517,13 @@ header {
 .tech-item:hover .tech-image {
     filter: grayscale(0);
 }
-.ul-tooltip {
+
+.ui-tooltip {
     background-color: #E31B1B;
-    border-color: #E31B1B !important;
+    border-color: #E31B1B!important;
     border-radius: 0;
     text-align: center;
-    box-shadow: none !important;
+    box-shadow: none!important;
     font-size: 10px;
     color: rgba(243,242,240,0.8);
     max-width: 232px;
@@ -530,7 +531,7 @@ header {
     padding: 20px;
     box-sizing: border-box;
 }
-.ul-tooltip-content::before {
+.ui-tooltip-content::before {
     content: "";
     position: absolute;
     display: block;
@@ -638,6 +639,7 @@ header {
     z-index: 1;
     margin: 0;
 }
+
 
 
 
