@@ -531,6 +531,9 @@ header {
 .tech-item:hover .tech-image {
     filter: grayscale(0);
 }
+.jq .tech-image {
+    width: 72px;
+}
 
 .ui-tooltip {
     background-color: #E31B1B;
@@ -655,7 +658,7 @@ header {
 }
 .section-form {
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 128px;
 }
 
 .form {
@@ -668,7 +671,6 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    border-bottom: 1px solid #F3F2F0;
     line-height: 150%;
 }
 .form-title p{
@@ -690,8 +692,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border-top: 1px solid #F3F2F0;
+    z-index: 1;
+    margin-top: -2px;
 }
-
+.form-social .nav-social {
+    margin-bottom: 4px;
+}
 .form {
     font-size: 12px;
     line-height: 150%;
@@ -760,16 +767,27 @@ footer {
 .footer-top {
     display: flex;
     justify-content: space-between;
-    padding-top: 44px;
+    padding-top: 65px;
+    padding-bottom: 0;
 }
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-bottom: 41px;
+}
+
 .footer-bottom p {
     margin: 0;
     color: rgba(243,242,240,0.3);
+    font-size: 12px;
+    line-height: 150%;
 }
 .footer-link {
     color: rgba(243,242,240,0.3);
     border-bottom: 1px solid rgba(243,242,240,0.3);
     transition: 0.2s ease;
+    text-decoration: none;
 }
 .footer-link:hover {
     color: rgba(243,242,240,1);
